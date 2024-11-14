@@ -86,3 +86,52 @@ body {
 .icon:hover {
   filter: hue-rotate(100deg) saturate(6) brightness(1.2);
 }
+
+@media (max-width: 700px) {
+  .heading {
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.81px;
+    letter-spacing: 6.136363506317139px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    max-width: 327px;
+    width: 100%;
+  }
+  .time_box {
+    width: 70px;
+    height: 66px;
+  }
+  .in_box {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text {
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 9.26px;
+    letter-spacing: 2.9593749046325684px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+  }
+  .in_text {
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+  }
+  .main_box {
+    max-width: 327px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
