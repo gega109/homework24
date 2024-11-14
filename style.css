@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    #1d1e28 0.12%,
+    #261c2d 94.84%,
+    #261a2d 100%
+  );
+  overflow: hidden;
+}
+.container {
+  height: 100vh;
+  max-width: 100%;
+  background-image: url(./images/mountains.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.heading {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29.11px;
+  letter-spacing: 7.5px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color: white;
+}
+.main_box {
+  display: flex;
+  max-width: 688px;
+  width: 100%;
+  justify-content: space-between;
+}
+.text {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.52px;
+  letter-spacing: 5.918749809265137px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color: #8385a9;
+}
+.time_box {
+  height: 145px;
+  width: 150px;
+  background-color: rgb(61, 54, 74);
+  border-radius: 15%;
+  box-shadow: rgb(21, 16, 23) 0px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.in_box {
+  height: 184px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.in_text {
+  color: #fb5e84;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.4000000953674316px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+}
+.icon_box {
+  max-width: 136px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.icon:hover {
+  filter: hue-rotate(100deg) saturate(6) brightness(1.2);
+}
